@@ -1,0 +1,28 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# --- Django ---
+db.sqlite3
+db.upsert
+.env
+static/
+media/
+
+# --- Vagrant ---
+.vagrant/
+
+# --- IDEs/Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+Thumbs.db
